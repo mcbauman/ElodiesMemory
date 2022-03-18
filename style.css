@@ -1,0 +1,26 @@
+body{
+    background-color: lightsteelblue;
+}
+main{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+div{
+    margin: 5px;
+    font-size: 5rem;
+    display:flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px white inset;
+}
+.outer{
+
+}
+.innerdiv{
+    visibility: visible;
+
+}
+.innerdiv:hover{
+    background-color: maroon;
+}
